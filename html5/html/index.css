@@ -1,0 +1,389 @@
+body{
+    width: 100%;
+    font-size: 12px;
+    font-family: "微软雅黑", Arial, Tahoma;
+    color: #666666;
+    background: url("../image/index/bg_main.png");
+}
+body,div,ul,li,ol,p{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+a:hover{
+    color: lightgrey;
+}
+#header{
+    width: 100%;
+    background: url("../image/index/bg_header.jpg");
+    height: 114px;
+    overflow: hidden;
+    position: relative;
+}
+.main_center{
+    width: 1000px;
+    margin:0 auto;
+    /*text-align: center;*/
+}
+#header .header_top{
+    width: 100%;
+    height: 30px;
+}
+#header .header_top ul{
+    list-style-type: none;
+}
+#header .header_top ul li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+}
+#header .header_bottom{
+    text-align: left;
+}
+#header .header_bottom .sjpt_logo{
+    height: 57px;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    float: left;
+}
+#header .header_bottom .sjpt_logo a{
+    height: 57px;
+    width: 250px;
+    display: inline-block;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#header .header_bottom .sjpt_logo a,.order,.unipay,.member,.stats{
+    background: url("../image/index/sprites.png");
+}
+#header .header_bottom .enterPlatform{
+    padding: 8px 10px;
+    background-color: #207fe9;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    border-radius: 2px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+#banner-fade .banner-fade_main{
+    background: url("../image/index/05.jpg")center center no-repeat;;
+    height: 400px;
+}
+#banner-fade ol{
+    list-style-type: none;
+    position: absolute;
+    left: 48%;
+    top:95%
+}
+#banner-fade ol li{
+    background: url("../image/index/icon_dot.png");
+    width: 16px;
+    height: 16px;
+    /*float: left;*/
+    display: inline-block;
+    /*position: absolute;*/
+    cursor: pointer;
+}
+#banner-fade .banner-fade_form{
+    padding: 0px 10px;
+    border: 1px solid #CCCCCC;
+    border-top: 1px solid #3b97d7;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    left: 62%;
+    top: 8%;
+    background: white;
+}
+#banner-fade .banner-fade_form form .left_login{
+    border-bottom: 1px solid #CCCCCC;
+    padding: 10px 15px;
+    font-size: 20px;
+    width: 115px;
+    display: inline-block;
+    text-align: center;
+}
+#banner-fade .banner-fade_form form .right_login{
+    border-bottom: 1px solid #3b97d7;
+    font-size: 20px;
+    width: 115px;
+    /*float: left;*/
+    display: inline-block;
+    padding: 10px 15px;
+    color: black;
+}
+#banner-fade .banner-fade_form form input{
+    width: 290px;
+    height: 35px;
+    /*border-radius: 4px;*/
+    /*margin-top: 10px;*/
+    border: 0px;
+    background-color:#d3ebfd;
+    font-size: 16px;
+    line-height: 35px;
+}
+#banner-fade .banner-fade_form form p{
+    margin-top: 10px;
+}
+#blue{
+    width: 300px;
+    height: 40px;
+    background-color: #33ABF2;
+    border: 1px solid blue;
+    clear: both;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+#orange{
+    width: 300px;
+    height: 40px;
+    background-color: darkorange;
+    border: 1px solid yellow;
+    /*clear: both;*/
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+.content{
+    position: relative;
+}
+.content_info{
+    padding-top:40px ;
+    color: #4d4d4d;
+    font-size: 14px;
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+}
+.content .content_info ul{
+    float: left;
+}
+.content .content_info ul li{
+    float: left;
+    width: 22%;
+    margin-left: 28px;
+    text-align: center;
+}
+.order{
+    background-position: 0px -117px;
+    background-repeat: no-repeat;
+}
+.order,.unipay,.member,.stats{
+    display: inline-block;
+    width: 113px;
+    height: 113px;
+}
+.unipay{
+    background-position: -123px -117px;
+    background-repeat: no-repeat;
+}
+.member{
+    background-repeat:no-repeat;
+    background-position: 0px -237px;
+
+}
+.stats{
+    background-repeat:no-repeat;
+    background-position:-123px -237px;
+}
+.content .content_info ul li h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+.content .content_info ul li p{
+    text-align: left;
+}
+.content .divider{
+    width: 100%;
+    height: 2px;
+    background: url("../image/index/bg_divider_h.png");
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.content .service{
+    position: relative;
+}
+.content .service ul li {
+    height: 150px;
+    /*clear: both;*/
+    float: left;
+    margin-left: 50px;
+}
+.content .service ul li h2{
+    margin-bottom: 20px;
+}
+.content .service ul li h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.content .service ul li .service_bottom{
+    display: inline-block;
+    background-color: darkgray;
+    padding: 12px 30px 8px 12px;
+    font-size: 16px;
+}
+.content .service ul li a{
+    text-decoration: none;
+    color: #0000FF;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.content .service ul li a:hover{
+    color: #006699;
+}
+.online{
+    position: absolute;
+    background: url("../image/index/online.png");
+    display: inline-block;
+    width: 98px;
+    height: 124px;
+    right: 70px;
+    top: 900px;
+    cursor: pointer;
+}
+.poster01{
+    width: 100%;
+    height: 450px;
+    background: url("../image/index/bg_poster_01.jpg");
+    position: relative;
+    float: left;
+    margin-top: 50px;
+}
+.poster02{
+    width: 100%;
+    height: 450px;
+    background: url("../image/index/bg_poster_02.jpg");
+    position: relative;
+    float: left;
+    margin-top: 10px;
+}
+.poster03{
+    width: 100%;
+    height: 450px;
+    background: url("../image/index/bg_poster_03.jpg");
+    position: relative;
+    float: left;
+    margin-top: 10px;
+}
+.poster04{
+    width: 100%;
+    height: 853px;
+    background: url("../image/index/bg_poster_04.jpg");
+    position: relative;
+    float: left;
+    margin-top: 10px;
+}
+.poster05{
+    width: 100%;
+    height: 191px;
+    background: url("../image/index/img_post_05.png");
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 191px;
+    font-size: 45px;
+    color: gray;
+    letter-spacing: 1px;
+}
+.poster06{
+    width: 100%;
+    height: 269px;
+    background: url("../image/index/bg_blue.png");
+    position: relative;
+    float: left;
+    margin-top: 10px;
+}
+.poster06 .poster06_left{
+    margin-top: 40px;
+    width: 140px;
+    height: 200px;
+    float: left;
+}
+.poster06 .poster06_left_img{
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background: url("../image/index/img_scancode.png");
+}
+.poster06 .poster06_left p{
+    margin-top: 5px;
+    text-align: center;
+    color: gainsboro;
+    font-size: 14px;
+}
+.poster06 .poster06_right{
+    width: 820px;
+    margin-top: 100px;
+    float: left;
+    margin-left: 20px;
+}
+.poster06 .poster06_right .poster06_right_top{
+    width: 100%;
+    padding-bottom:20px;
+    border-bottom: 1px solid white;
+}
+.poster06 .poster06_right .poster06_right_top .poster06_right_top_span{
+    background: url("../image/index/mama100logo.png");
+    width: 135px;
+    height: 57px;
+    display: inline-block;
+    cursor: pointer;
+}
+.poster06 .poster06_right .poster06_right_top  p{
+    display: inline-block;
+    margin-left: 20px;
+}
+.poster06 .poster06_right .poster06_right_top  p a{
+    font-size:16px ;
+    color: white;
+}
+.poster06 .poster06_right .poster06_right_top  p a:hover{
+    color: gainsboro;
+}
+.poster06 .poster06_right .poster06_right_bottom{
+    margin-top: 15px;
+}
+.poster06 .poster06_right .poster06_right_bottom ul{
+    float: left;
+}
+.poster06 .poster06_right .poster06_right_bottom ul li{
+    float: left;
+}
+.poster06 .poster06_right .poster06_right_bottom ul li a{
+    color: lightgrey;
+    font-size: 14px;
+}
+.poster06 .poster06_right .poster06_right_bottom ul li a:hover{
+    color: white;
+}
+.poster06 .poster06_right .poster06_right_bottom ul li span{
+    color: lightgrey;
+    display: inline-block;
+    padding: 0 5px;
+}
+.poster06 .poster06_right .poster06_right_bottom p{
+    color: lightgrey;
+    font-size: 14px;
+    margin-top: 10px;
+    float: left;
+}
+.poster06 .clearfloat{
+    clear: both;
+}
