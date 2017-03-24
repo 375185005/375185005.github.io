@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>知问前端</title>
+    <script src="js/jquery-3.1.1.min%20(1).js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/messages_zh.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.css"/>
+    <link rel="stylesheet" href="css/知问前端.css"/>
+</head>
+<body>
+        <div id="header">
+            <div class="header_main">
+                <h1>知问</h1>
+                <div class="header_search">
+                    <input type="text" name="search" class="search"/>
+                </div>
+                <div class="header_button">
+                   <button id="search_button">查询</button>
+                </div>
+                <div class="header_member">
+                    <a href="###" id="reg_a">注册</a> | <a href="###" id="login_a">登录</a>
+                </div>
+            </div>
+        </div>
+        <!--<div id="box"></div>-->
+        <form id="reg" action="#1111">
+            <!--表单区&#45;&#45;会员注册-->
+            <!--<p>-->
+                <!--<input type="radio" id="male" value="男"/><label for="male">男</label>-->
+                <!--<input type="radio" id="female" value="女"/><label for="female">女</label>-->
+            <!--</p>-->
+
+            <ol class="reg_error">
+            </ol>
+            <p>
+                <label for="user">帐号：</label>
+                <input type="text" class="text" name="user" id="user" value="sassssa"/>
+                <span class="star">*</span>
+            </p>
+            <p>
+                <label for="password" title="密码">密码：</label>
+                <input type="password" class="text" name="password" id="password"/>
+                <span class="star">*</span>
+            </p>
+            <p>
+                <label for="e-mail">邮箱：</label>
+                <input type="email" class="text" name="email" id="e-mail"/>
+                <span class="star">*</span>
+            </p>
+            <p>
+                <label>性别</label>
+                <input type="radio" name="sex" class="sex" id="male" value="male" checked="checked"/><label for="male">男</label>
+                <input type="radio" name="sex" class="sex" id="female" value="female"/><label for="female">女</label>
+            </p>
+            <p>
+                <label for="date">生日：</label>
+                <input type="date" id="date" class="text" name="date"/>
+            </p>
+        </form>
+        <div id="login">
+            表单区--会员登录
+        </div>
+</body>
+</html>
